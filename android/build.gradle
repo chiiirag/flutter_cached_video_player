@@ -28,6 +28,7 @@ apply plugin: 'com.android.library'
 
 android {
     compileSdkVersion 33
+    namespace 'com.example.cachedvideoplayer' // Use a relevant namespace
 
     defaultConfig {
         minSdkVersion 21
